@@ -1,0 +1,168 @@
+/* Base stuff to set the stage for my items! */
+    @import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Share+Tech&display=swap');
+
+    /* root key!! */
+    :root {
+        --main-font: 'Share Tech', sans-serif;
+        --decorative-font: 'Germania One', sans-serif;
+        --font-color: #ededed;
+    }
+
+    /* base color scheme, font, and style*/
+    body {
+        background-color: #19191A;
+
+        font-family: var(--main-font);
+        color: #ededed;
+
+        margin: 0;
+    }
+
+    body h1, h2, h3 {
+        font-family: var(--decorative-font);
+        font-weight: 300;
+    }
+
+    /* nav bar! */
+    .intro {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 50px;
+
+        background-color: #0b0b0b;
+    }
+
+    header div {
+        background-color: #0b0b0b;
+    }
+
+    header img {
+        height: 77px;
+    }
+
+    nav h1 {
+        display: flex;
+        align-content: space-between;
+    }
+    /* Nav bar! */
+
+/* base stuff end */
+
+/* KEY CHARACTERS PAGE */
+
+    #character-profiles {
+        display: grid;
+        grid-template-columns: repeat(4, 350px);
+        grid-template-rows: repeat(2, 500px);
+
+        gap: 30px;
+
+        justify-items: center;
+
+    }
+
+    .profiles {
+        background-color: #232323;
+        border-radius: 12px;
+
+        display: grid;
+        align-items:center;
+
+        margin: 10px;
+
+        padding: 15px;
+    }
+
+    .profiles img {
+        height: 250px;
+    }
+
+    #rudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        border: 3px solid;
+        border-color: #E50112;
+    }
+
+    #rudo:hover {
+        transform: scale(1.1);
+        transition: 0.5s ease-in;
+    }
+
+
+    #enjin, #enjin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        border: 3px solid;
+        border-color: #EDCD00;
+    }
+
+    #enjin:hover {
+        transform: scale(1.1);
+        transition: 0.5s ease-in;
+    }
+
+    #zodyl {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        border: 3px solid;
+        border-color: #6D70A8;
+    }
+
+    #zodyl:hover {
+        transform: scale(1.1);
+        transition: 0.5s ease-in;
+    }
+
+    #tamsy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        border: 3px solid;
+        border-color: #C9A29F;
+    }
+
+    #tamsy:hover {
+        transform: scale(1.1);
+        transition: 0.5s ease-in;
+    }
+
+    #zanka {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        border: 3px solid;
+        border-color: #028FC3;
+    }
+
+    #zanka:hover {
+        transform: scale(1.1);
+        transition: 0.5s ease-in;
+    }
+
+    #andor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        border: 3px solid;
+        border-color: #8CB4C0;
+    }
+
+    #andor:hover {
+        transform: scale(1.1);
+        transition: 0.5s ease-in;
+    }
+/* KEY CHARACTERS PAGE */
